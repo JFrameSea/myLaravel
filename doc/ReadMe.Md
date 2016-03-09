@@ -21,4 +21,10 @@
 
 #### My laravel
 
-  - Extends Illuminate\Foundation\Application
+  - Extends Illuminate\Foundation\Application in App\Foundation\Application and overwrite project path method
+  - init .env.pro1 and call loadEnvironmentFrom(file) to load it
+  - modify config/view.php to change view path
+  - Create Kernel.php
+  - Create ServiceProvider change config/app.php to resiger them
+  - Create proj1.routes.php and modify RouteServiceProvider to change route file and controller namespace
+  - Init Models
