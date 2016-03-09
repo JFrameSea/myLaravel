@@ -2,7 +2,7 @@
 echo "Start deploying...\n\n";
 $app_root = dirname(__FILE__) . '/';
 
-$appNames = ['web'];
+$appNames = ['web', 'admin'];
 
 system('chmod -R 755 ' . $app_root);
 
