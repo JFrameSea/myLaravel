@@ -18,7 +18,7 @@ server {
     root {project_folder}/src/www-web;
     index index.html index.htm index.php;
 
-    server_name ec.cn;
+    server_name nickna.exchange.cn;
 
     location / {
         try_files $uri $uri/ /index.php?$query_string;
@@ -39,7 +39,7 @@ server {
     root {project_folder}/src/www-admin;
     index index.html index.htm index.php;
 
-    server_name admin.ec.cn;
+    server_name admin.exchange.cn;
 
     location / {
         try_files $uri $uri/ /index.php?$query_string;
