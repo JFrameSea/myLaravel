@@ -32,6 +32,7 @@ require __DIR__.'/../bootstrap/autoload.php';
 | the responses back to the browser and delight our users.
 |
 */
+require_once __DIR__ . '/../app/Common/helpers.php';
 
 $app = require_once __DIR__.'/../bootstrap/web.app.php';
 

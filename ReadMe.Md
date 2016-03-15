@@ -28,3 +28,5 @@
   - Create ServiceProvider change config/app.php to resiger them
   - Create proj1.routes.php and modify RouteServiceProvider to change route file and controller namespace
   - Init Models
+  - ReWrite artisan
+  - Rewrite Auth middle
