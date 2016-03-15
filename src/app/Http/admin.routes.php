@@ -11,6 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return 'welcome admin';
+Route::get('/', function() {
+    return 'Web home page';
 });
+
+/**
+ * Auth
+ */
+Route::get('auth/login', function() {
+    return 'login route';
+});
+
+Route::post('login', 'Auth\AuthController@postLogin');
+
+Route::controllers([
+    'test' => 'TestController'
+]);
