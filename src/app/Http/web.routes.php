@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return 'welcome web';
 });
+
+Route::controller('test', 'TestController');
