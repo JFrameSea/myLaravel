@@ -1,8 +1,4 @@
-# EC Project
-
-    A B2B2C Platform
-
-## Architecture
+# Project
 
 - PHP 5.5+
 - MySQL 5.5
